@@ -8,7 +8,7 @@ int main()
   FILE *encode_in = fopen("en_in.txt", "r");
 
   FILE *encode_out = fopen("en_out.txt", "w");
-  FILE *decode_in = fopen("de_in.txt", "w+");
+  // FILE *decode_in = fopen("de_in.txt", "w");
   FILE *decode_out = fopen("de_out.txt", "w");
   Map m[MAP_SIZE];
   Codes c[MAP_SIZE];
@@ -26,12 +26,12 @@ int main()
       you can use the rewind() method or the fseek() method
     */
   fseek(encode_in, 0, SEEK_SET);
-  encoding(encode_in, encode_out, decode_in, c);
-  decoding(hf_root, decode_in, decode_out);
-  printf("size of map=%d\tsize of codes=%d\n", m->size, c->size);
-  fclose(encode_in);
+
+  encoding(encode_in, encode_out, c);
   fclose(encode_out);
-  fclose(decode_in);
-  fclose(decode_out);
+  encode_out = fopen("en_out.txt", "r");
+  fseek(encode_in, 0, SEEK_SET);
+  decoding(hf_root, encode_out, decode_out);
+
   return 0;
 }

@@ -1,11 +1,105 @@
- . to add these files into staging area, commmand is "git add file1 file2 file3" or to add all f the files in working 
-directory command is "git add ."
-here your files are added at staging area and not in actual repo.
-3. now after making sure that you want to add all the files from staging area into repo, command is "git commit -m "short mssg 
-in present tense preferably""
-4."git status" to check the status of your files in staging area
-5."git log" to check pervious commits
-6."git diff filename" - if you have modified something in your file on working directory and if the file 
-is already commited to repo or added to staging area and now you want to compare the versions of 
-the file then use this command
-7."git checkout filename" - a file that is already added 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ante in nibh mauris cursus mattis 
+molestie a iaculis. Quisque non tellus orci ac. Cursus vitae congue mauris rhoncus 
+aenean vel elit scelerisque. Tristique senectus et netus et malesuada fames. 
+Dolor sit amet consectetur adipiscing elit ut. Lobortis feugiat vivamus at augue 
+eget arcu. Curabitur gravida arcu ac tortor dignissim convallis. Libero nunc 
+consequat interdum varius sit amet. Erat pellentesque adipiscing commodo elit at
+imperdiet dui. Feugiat sed lectus vestibulum mattis ullamcorper. Accumsan lacus 
+vel facilisis volutpat. Faucibus turpis in eu mi bibendum neque egestas. 
+Suspendisse in est ante in nibh. Mi eget mauris pharetra et ultrices neque
+ornare aenean. Et malesuada fames ac turpis egestas sed tempus. Eros donec ac 
+odio tempor orci dapibus ultrices in iaculis.
+
+Bibendum neque egestas congue quisque egestas diam in arcu. A iaculis at erat 
+pellentesque. Feugiat scelerisque varius morbi enim nunc. Non diam phasellus 
+vestibulum lorem sed risus ultricies. Nunc scelerisque viverra mauris in aliquam 
+sem. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Amet cursus 
+
+sit amet dictum sit amet justo. Sapien faucibus et molestie ac feugiat. 
+Quis ipsum suspendisse ultrices gravida dictum fusce. Dictumst vestibulum rhoncus 
+est pellentesque elit. Tempus egestas sed sed risus pretium quam vulputate dignissim
+ suspendisse. Amet cursus sit amet dictum sit amet justo donec enim. Amet commodo 
+ nulla facilisi nullam vehicula ipsum. Massa vitae tortor condimentum 
+ lacinia quis vel. Sem fringilla ut morbi tincidunt augue interdum velit.
+Nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus.
+
+A lacus vestibulum sed arcu non. Mi sit amet mauris commodo quis imperdiet 
+massa tincidunt. Nisi lacus sed viverra tellus in hac. Facilisis sed odio 
+morbi quis commodo odio aenean sed. Sed cras ornare arcu dui vivamus arcu felis 
+bibendum ut. Ultricies lacus sed turpis tincidunt. Faucibus nisl tincidunt eget 
+nullam non nisi est. Enim nunc faucibus a pellentesque sit. Neque vitae tempus 
+quam pellentesque. Vitae et leo duis ut diam quam nulla porttitor. Tincidunt nunc 
+pulvinar sapien et ligula. Elementum integer enim neque volutpat. Lectus arcu 
+bibendum at varius vel pharetra vel turpis nunc. Iaculis urna id volutpat lacus 
+laoreet. Eget nulla facilisi etiam dignissim diam quis. Quis blandit turpis cursus 
+in hac habitasse platea dictumst quisque. Ultrices gravida dictum fusce ut placerat
+ orci nulla pellentesque.
+
+Velit laoreet id donec ultrices tincidunt arcu non sodales neque. Ut enim blandit 
+volutpat maecenas volutpat blandit. Porttitor eget dolor morbi non. Sapien eget mi 
+proin sed libero enim. Placerat orci nulla pellentesque dignissim enim. Blandit 
+massa enim nec dui nunc mattis enim ut tellus. Aenean euismod elementum nisi quis 
+eleifend quam adipiscing vitae. Dui accumsan sit amet nulla facilisi morbi. Diam
+ maecenas ultricies mi eget mauris pharetra et ultrices neque. At quis risus sed 
+ vulputate. Nec ultrices dui sapien eget mi proin. Urna id volutpat lacus laoreet.
+ Sodales ut etiam sit amet nisl.
+
+Diam quis enim lobortis scelerisque fermentum. Lacus viverra vitae congue eu consequat 
+ac felis donec et. Arcu bibendum at varius vel pharetra vel turpis nunc eget.
+ Leo in vitae turpis massa sed. Sollicitudin tempor id eu nisl nunc. 
+ Mattis pellentesque id nibh tortor id aliquet lectus. Nunc sed blandit 
+ libero volutpat. Dui sapien eget mi proin sed. A scelerisque purus semper 
+ eget duis. Et ligula ullamcorper malesuada proin libero nunc consequat interdum.
+  Sed id semper risus in hendrerit gravida rutrum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Vel pretium lectus quam id. Et netus
+ et malesuada fames. Elementum nisi quis eleifend quam adipiscing vitae proin 
+sagittis. Vitae suscipit tellus mauris a diam maecenas sed enim ut. Integer vitae 
+justo eget magna fermentum. Scelerisque eleifend donec pretium vulputate. Malesuada 
+pellentesque elit eget gravida cum sociis natoque. Nisi scelerisque eu ultrices 
+vitae. Neque volutpat ac tincidunt vitae semper quis lectus nulla. Sit amet aliquam 
+id diam maecenas. Mi proin sed libero enim. Erat imperdiet sed euismod nisi porta 
+lorem.
+
+Tempus egestas sed sed risus pretium quam vulputate. Leo urna molestie at elementum 
+eu facilisis sed. In metus vulputate eu scelerisque felis imperdiet proin fermentum. 
+Placerat vestibulum lectus mauris ultrices eros. Aliquam faucibus purus in massa 
+tempor nec. Molestie nunc non blandit massa enim nec dui nunc mattis. Id leo in 
+vitae turpis massa sed. A erat nam at lectus urna duis convallis. Morbi non arcu 
+risus quis varius quam. Sed adipiscing diam donec adipiscing. Elementum curabitur 
+vitae nunc sed. Diam donec adipiscing tristique risus nec feugiat. Mattis rhoncus 
+urna neque viverra. Mollis nunc sed id semper risus in. Sed tempus urna et pharetra 
+pharetra massa massa ultricies. Id porta nibh venenatis cras sed.
+
+Euismod quis viverra nibh cras pulvinar mattis nunc sed. Eget magna fermentum 
+iaculis eu. Nec sagittis aliquam malesuada bibendum. Auctor eu augue ut lectus. 
+Eu nisl nunc mi ipsum faucibus. Est ante in nibh mauris cursus mattis molestie a. 
+Volutpat sed cras ornare arcu. Massa vitae tortor condimentum lacinia quis vel eros 
+tus nulla at volutpat diam ut. Odio ut enim blandit volutpat. Tempus iaculis urna 
+id volutpat lacus laoreet non curabitur gravida. Id nibh tortor id aliquet lectus 
+proin nibh nisl.
+
+Cras semper auctor neque vitae. Nec sagittis aliquam malesuada bibendum arcu vitae. 
+onec enim diam vulputate ut. Vitae purus faucibus ornare suspendisse sed nisi lacus 
+sed viverra. Odio ut sem nulla pharetra diam. Faucibus scelerisque eleifend donec
+ pretium vulputate sapien nec sagittis aliquam. Dictum fusce ut placerat orci nulla
+  pellentesque dignissim enim sit. Eleifend quam adipiscing vitae proin sagittis. 
+  Velit egestas dui id ornare arcu odio ut sem. Dolor sed viverra ipsum nunc aliquet 
+  bibendum enim facilisis gravida. Tincidunt praesent semper feugiat nibh sed 
+  pulvinar. Dolor purus non enim praesent elementum facilisis. Sit amet nulla 
+  facilisi morbi tempus iaculis urna id volutpat. Nunc lobortis mattis aliquam 
+  faucibus. Mus mauris vitae ultricies leo integer malesuada nunc vel risus.
+
+Neque laoreet suspendisse interdum consectetur libero id. Eu scelerisque felis 
+imperdiet proin fermentum leo. Velit egestas dui id ornare arcu odio ut sem nulla. 
+Gravida cum sociis natoque penatibus et. Laoreet sit amet cursus sit amet dictum. 
+Faucibus turpis in eu mi bibendum neque. Tristique senectus et netus et malesuada 
+fames ac turpis egestas. Posuere lorem ipsum dolor sit amet. Cursus vitae congue 
+mauris rhoncus aenean vel elit scelerisque mauris. Quam vulputate dignissim 
+suspendisse in est. Nec dui nunc mattis enim ut tellus elementum. At tellus at 
+urna condimentum mattis pellentesque. Et netus et malesuada fames ac turpis egestas. 
+Condimentum mattis pellentesque id nibh tortor id aliquet lectus. Cursus vitae 
+congue mauris rhoncus aenean vel elit. Varius quam quisque id diam vel quam 
+elementum pulvinar.
