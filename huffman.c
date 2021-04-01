@@ -72,4 +72,9 @@ void huffmanCodes(Map *map, Codes *c)
     c = printCodes(root, a, 0, c);
     c->size = map->size;
     int bits = 0;
+    for (int j = 0; j < map->size; j++)
+    {
+        for (int i = 0; i < c[j].len; i++)
+            bits++;
+    }
 }

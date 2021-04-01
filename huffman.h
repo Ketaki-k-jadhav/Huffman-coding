@@ -54,7 +54,7 @@ Codes *printCodes(Node *root, char a[], int i, Codes *codes);
 void init_codes(Codes *codes);
 void huffmanCodes(Map *map, Codes *c);
 
-void encoding(FILE *encode_in, FILE *encode_out, FILE *decode_in, Codes *codes);
-void decoding(Node *root, FILE *decode_in, FILE *decode_out);
+void encoding(FILE *encode_in, FILE *encode_out, Codes *codes);
+void decoding(Node *root, FILE *encode_out, FILE *decode_out);
 
 #endif
