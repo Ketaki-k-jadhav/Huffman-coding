@@ -1,0 +1,58 @@
+**for Local implementations :
+
+Navigate into the working directory and do "git init"
+1.in your working directory you have your local files on which you are working
+2. to add these files into staging area, commmand is "git add file1 file2 file3" or to add all f the files in working 
+directory command is "git add ."
+here your files are added at staging area and not in actual repo.
+3. now after making sure that you want to add all the files from staging area into repo, command is "git commit -m "short mssg 
+in present tense preferably""
+4."git status" to check the status of your files in staging area
+5."git log" to check pervious commits
+6."git diff filename" - if you have modified something in your file on working directory and if the file 
+is already commited to repo or added to staging area and now you want to compare the versions of 
+the file then use this command
+7."git checkout filename" - a file that is already added to staging area or commited to repo and you have modified it later
+inside your working directory .
+but now you want previous version of that file then use this command 
+
+
+**for remote repositories:
+
+1. after creating a repo remotely on github
+push you local repo i.e. in working directory.
+
+git remote add origin <copy-the-link-here-after-creating-remote-repo-on-github-website>
+git push -u origin master
+
+**To remove all the files from staging area:
+
+"git rm --cached -r ." or "git rm --cached -r .*txt"(all 
+text files will be ignored)
+
+**gitignore
+
+create a file .gitignore and add all the files to be ignored
+an new line each or copy template from git official repo
+
+**cloning
+
+"git clone <url-from-download-button-of-desired-repo-on-github>"
+
+**branching and merging
+
+1. "git branch <branch_name>" - to create a branch
+2. "git branch" - To check which is the current branch(implied by asteric'*')
+3. "git checkout <branch_name>" - to switch to the branch branch_name.
+4."git merge <branch_name>" - to merge with master branch
+
+
+**forking and pulling
+
+forking=copying entire remote repo into your github account
+cloning=after forking , clone the repo to work locally on your machine and make some changes
+pull request=for people with read-only access, can suggest the original repo owner to pull over the changes this person made
+merging=if that original repo owner accepts your pull request the he/she will merge
+your repo with their own. 
+
+
