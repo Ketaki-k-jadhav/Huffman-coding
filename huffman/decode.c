@@ -1,24 +1,40 @@
-#include <stdio.h>
-#include <string.h>
 #include "huffman.h"
 
-void decoding(Node *root, FILE *encode_out, FILE *decode_out)
+void decoding(FILE *decode_in, FILE *decode_out)
 {
+    Map map1[MAP_SIZE];
+    init_map(map1);
 
+    char c;
+    int f = 0, k;
+    fscanf(decode_in, "%d\n", &k);
+    static int j = 0;
+
+    for (int i = 0; i < k; i++)
+    {
+        fscanf(decode_in, "%d"
+                          "%d\n",
+               &c, &f);
+
+        char ch = c;
+        map1[j].ch = ch;
+        map1[j].freq = f;
+
+        j++;
+    }
+    map1->size = j;
+    Node *root = buildHuffmanTree(map1);
     Node *curr = root;
-    int count = 0;
-
     while (1)
     {
-        char c = fgetc(encode_out);
-        count++;
-
+        c = fgetc(decode_in);
         if (c == EOF)
             break;
         else
         {
             if (c == '0')
                 curr = curr->left;
+
             if (c == '1')
                 curr = curr->right;
 
@@ -29,6 +45,5 @@ void decoding(Node *root, FILE *encode_out, FILE *decode_out)
             }
         }
     }
-
-    printf("\n");
+    printf("File is decompressed using huffman decoding and saved in current working directory.\n");
 }

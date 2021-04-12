@@ -1,17 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "huffman.h"
 
-void encoding(FILE *encode_in, FILE *encode_out, Codes *codes)
+void encoding(FILE *encode_in, FILE *encode_out, Codes *codes, Map *map)
 {
-    int count = 0;
+    fprintf(encode_out, "%d\n", map->size);
+    for (int i = 0; i < map->size; i++)
+    {
+        fprintf(encode_out, "%d %d\n", map[i].ch, map[i].freq);
+    }
 
-    printf("writing into decode in:\n");
     while (1)
     {
         char c = fgetc(encode_in);
-
         if (c == EOF)
             break;
         else
@@ -25,8 +24,9 @@ void encoding(FILE *encode_in, FILE *encode_out, Codes *codes)
 
             for (int k = 0; k < codes[j].len; k++)
             {
-                fprintf(encode_out, "%c", codes[j].cd[k]);
+                fprintf(encode_out, "%d", codes[j].cd[k]);
             }
         }
     }
+    printf("File is compressed using Huffman Compression algorithm and saved in current working directory\n");
 }
