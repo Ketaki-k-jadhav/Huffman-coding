@@ -5,9 +5,14 @@
 
 > Data Structure used: Priority Queue implemented using Min heap.
 
-Steps to run the project:
-```
-- Clone this repo
+>Steps to run the project:
 
-- Open terminal and run command ./main
+* Clone this repo
+
+* Open terminal and run following commands:
+```
+make all
+
+./output
+
 ```
