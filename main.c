@@ -1,8 +1,4 @@
 #include "huffman.h"
-#include "MinHeap.c"
-#include "huffman.c"
-#include "encode.c"
-#include "decode.c"
 
 void menu()
 {
