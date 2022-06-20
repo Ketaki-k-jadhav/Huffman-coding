@@ -1,7 +1,7 @@
 # Huffman-coding
 ### Data Structures and Algorithms Project
 
-> In this project, [Huffman Algorithm](https://www.techiedelight.com/huffman-coding/) is used for non-lossy file compression and decompression.
+> In this project, [Huffman Algorithm](https://www.techiedelight.com/huffman-coding/) is used for lossless file compression and decompression.
 
 > Data Structure used: Priority Queue implemented using Min heap.
 
