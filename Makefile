@@ -25,4 +25,4 @@ encode.o: encode.c
 decode.o: decode.c
 	$(CC) $(CF) decode.c
 clean:
-	rm -rf *.o editorl
+	rm -rf *.o output
